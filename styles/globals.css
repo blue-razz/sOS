@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#desktop {
+  background-image: url("/Desktop.jpg");
+  background-size: cover;
+}
