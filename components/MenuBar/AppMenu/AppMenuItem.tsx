@@ -24,13 +24,18 @@ const AppMenuItem: NextPage<IProps> = ({ name, children }) => {
         id={`${name}__dropdown-button`}
         className={`cursor-default active:bg-slate-700/50 px-3 ${
           dropdownOpen ? "bg-slate-700/50" : ""
-        } transition-all ease-out duration-150 rounded-md py-1`}
+        } transition-all ease-out duration-150 rounded-md py-1 h-full line-height-[1.5rem] flex items-center align-middle -mr-1`}
       >
         {children ? children : name}
       </button>
 
       {dropdownOpen && (
-        <AppMenuDropdown menuItems={["Item 1", "Item 2", "Item 3"]} />
+        <AppMenuDropdown>
+          <div className="">About This Sac</div>
+          <div className="w-full h-[1.2px] bg-gray-400/20 rounded-full text-shadow"></div>
+          <div className="">System Settings...</div>
+          <div className="">App Store...</div>
+        </AppMenuDropdown>
       )}
     </div>
   );

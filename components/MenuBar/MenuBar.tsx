@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
-import AppMenu from "./AppMenu";
-import StatusMenu from "./StatusMenu";
-import Time from "./Time";
+import AppMenu from "./AppMenu/AppMenu";
+import StatusMenu from "./StatusMenu/StatusMenu";
+import Time from "./StatusMenu/Time";
 
 const MenuBar: NextPage = () => {
   return (

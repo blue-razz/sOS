@@ -6,10 +6,8 @@ const AppMenu: NextPage = () => {
   return (
     <div className="flex items-center align-middle h-full">
       <AppMenuItem name="System">
-        <div className="text-xl">
-          {/* Replace with own logo */}
-          <IoLogoApple />
-        </div>
+        {/* Replace with own logo */}
+        <IoLogoApple className="text-[1.42rem]" />
       </AppMenuItem>
 
       <AppMenuItem name="Looker">

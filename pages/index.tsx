@@ -1,7 +1,7 @@
-import Dock from "@components/Dock";
-import DockDivider from "@components/DockDivider";
-import DockItem from "@components/DockItem";
-import MenuBar from "@components/MenuBar";
+import Dock from "@components/Dock/Dock";
+import DockDivider from "@components/Dock/DockDivider";
+import DockItem from "@components/Dock/DockItem";
+import MenuBar from "@components/MenuBar/MenuBar";
 import type { NextPage } from "next";
 
 const Index: NextPage = () => {
